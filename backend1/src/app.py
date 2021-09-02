@@ -1,4 +1,4 @@
-                                                                        ## crear ambiente virtual --> cmd virtualenv venv
+                                                                        ## crear ambiente virtual --> cmd virtualenv venv --> pip install flask Flask_Pymongo flask-cors 
 from flask import Flask,request,jsonify                                 ##.\venv\Scripts\activate.bat --- mongod para iniciar la bdd -- mongo para conectarse --python src/app.py para iniciar el servidor de la apg
 from flask_pymongo import PyMongo, ObjectId
 from flask_cors import CORS
